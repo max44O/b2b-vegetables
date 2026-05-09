@@ -164,7 +164,8 @@
     "specifications": "Specifications",
     "addToRfq": "Add to RFQ",
     "viewDetails": "View Details",
-    "loginToRequest": "Login to Request Quote"
+    "loginToRequest": "Login to Request Quote",
+    "register": "Register"
   },
   "rfq": {
     "title": "Request for Quote",

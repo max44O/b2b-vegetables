@@ -294,7 +294,7 @@ export function ProductCatalog({ categories, products, locale, canAddToRFQ }: Pr
                     </div>
                   </div>
                 ) : (
-                  <Button variant="outline" className="w-full" disabled>
+                  <Button variant="outline" className="w-full h-auto whitespace-normal text-xs sm:text-sm p-2" disabled>
                     {t('loginToRequest')}
                   </Button>
                 )}

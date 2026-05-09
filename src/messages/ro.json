@@ -167,7 +167,8 @@
     "signUpToSeePrices": "Înregistrează-te pentru a vedea prețurile",
     "loginToRequest": "Conectează-te pentru a cere ofertă",
     "pricePerUnit": "Preț per {unit}",
-    "priceWithVAT": "Preț +TVA"
+    "priceWithVAT": "Preț +TVA",
+    "register": "Înregistrare"
   },
   "rfq": {
     "title": "Cerere de Ofertă",
