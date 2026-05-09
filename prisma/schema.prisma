@@ -1,0 +1,140 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  password      String
+  name          String?
+  companyName   String?
+  vatNumber     String?
+  phoneNumber   String?
+  role          String    @default("PENDING")
+  emailVerified Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Relations
+  rfqs          RFQ[]
+  offers        Offer[]
+
+  @@map("users")
+}
+
+model Category {
+  id          String    @id @default(cuid())
+  name        String
+  nameRo      String?
+  description String?
+  descriptionRo String?
+  isActive    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Relations
+  products    Product[]
+
+  @@map("categories")
+}
+
+model Product {
+  id          String    @id @default(cuid())
+  name        String
+  nameRo      String?
+  description String?
+  descriptionRo String?
+  sku         String    @unique
+  price       Float?
+  unit        String?
+  categoryId  String
+  imageUrl    String?
+  isActive    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Relations
+  category    Category  @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  rfqItems    RFQItem[]
+  offerItems  OfferItem[]
+
+  @@map("products")
+}
+
+model RFQ {
+  id          String    @id @default(cuid())
+  userId      String
+  status      String    @default("PENDING")
+  totalAmount Float?
+  notes       String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Relations
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  items       RFQItem[]
+  offers      Offer[]
+
+  @@map("rfqs")
+}
+
+model RFQItem {
+  id          String    @id @default(cuid())
+  rfqId       String
+  productId   String
+  quantity    Float
+  unitPrice   Float?
+  totalPrice  Float?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Relations
+  rfq         RFQ       @relation(fields: [rfqId], references: [id], onDelete: Cascade)
+  product     Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@map("rfq_items")
+}
+
+model Offer {
+  id          String      @id @default(cuid())
+  rfqId       String
+  adminId     String
+  totalAmount Float
+  validUntil  DateTime?
+  notes       String?
+  status      String    @default("PENDING")
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  // Relations
+  rfq         RFQ         @relation(fields: [rfqId], references: [id], onDelete: Cascade)
+  admin       User        @relation(fields: [adminId], references: [id], onDelete: Cascade)
+  items       OfferItem[]
+
+  @@map("offers")
+}
+
+model OfferItem {
+  id          String    @id @default(cuid())
+  offerId     String
+  productId   String
+  quantity    Float
+  unitPrice   Float
+  totalPrice  Float
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Relations
+  offer       Offer     @relation(fields: [offerId], references: [id], onDelete: Cascade)
+  product     Product   @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@map("offer_items")
+}

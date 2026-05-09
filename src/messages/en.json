@@ -1,0 +1,332 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "weight": "Weight",
+    "quantity": "Quantity",
+    "price": "Price",
+    "total": "Total",
+    "status": "Status",
+    "date": "Date",
+    "actions": "Actions",
+    "noResults": "No results found",
+    "tryAgain": "Please try again",
+    "failedToLoad": "Failed to load data",
+    "userUpdated": "User updated successfully",
+    "userUpdateFailed": "Failed to update user",
+    "rfqLoadFailed": "Failed to load RFQs",
+    "product": "Product",
+    "sku": "SKU",
+    "category": "Category"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "language": "Language",
+    "myAccount": "My Account"
+  },
+  "hero": {
+    "title": "Premium Vegetables & Legumes Wholesale",
+    "subtitle": "Supplying restaurants and businesses with the finest quality fresh produce from local farms",
+    "cta": "Get a Quote",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "quality": {
+      "title": "Premium Quality",
+      "description": "We source only the finest vegetables and legumes from trusted local farms"
+    },
+    "freshness": {
+      "title": "Always Fresh",
+      "description": "Direct from farm to your business with guaranteed freshness"
+    },
+    "reliability": {
+      "title": "Reliable Supply",
+      "description": "Consistent delivery schedules to keep your business running smoothly"
+    },
+    "support": {
+      "title": "Expert Support",
+      "description": "Our team of experts helps you choose the best products for your needs"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Access your B2B account",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot your password?",
+      "noAccount": "Don't have an account?",
+      "register": "Register here"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join our B2B platform",
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "companyName": "Company Name",
+      "vatNumber": "VAT Number (optional)",
+      "phone": "Phone Number",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in here",
+      "terms": "By creating an account, you agree to our terms of service"
+    },
+    "pending": {
+      "title": "Account Pending Approval",
+      "message": "Your account is awaiting approval from our administrators. You will receive an email notification once your account has been reviewed.",
+      "contact": "If you have any questions, please contact us."
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "userNotFound": "User not found",
+      "userDisabled": "Your account has been disabled. Please contact support.",
+      "emailExists": "An account with this email already exists",
+      "weakPassword": "Password must be at least 8 characters long",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "generic": "An error occurred. Please try again."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {name}!",
+    "pendingApproval": {
+      "title": "Account Pending Approval",
+      "message": "Your account is awaiting approval. You cannot access pricing or place orders until approved."
+    },
+    "stats": {
+      "totalRfqs": "Total RFQs",
+      "pendingRfqs": "Pending RFQs",
+      "activeOffers": "Active Offers",
+      "completedOrders": "Completed Orders",
+      "descriptions": {
+        "totalRfqs": "Total requests made",
+        "pendingRfqs": "Awaiting response",
+        "activeOffers": "Offers to review",
+        "completedOrders": "Successfully completed"
+      }
+    },
+    "recentRfqs": "Recent RFQs",
+    "recentRfqsDescription": "Your recent quote requests",
+    "noRfqsYet": "No RFQs yet",
+    "createFirstRfq": "Create Your First RFQ",
+    "items": "items",
+    "item": "item",
+    "latestOffer": "Latest offer",
+    "view": "View",
+    "viewAllRfqs": "View All RFQs",
+    "quickActions": {
+      "title": "Quick Actions",
+      "description": "Common tasks and shortcuts for your wholesale needs",
+      "browseProducts": "Browse Products",
+      "browseProductsDesc": "Explore our product catalog",
+      "createRfq": "Create RFQ",
+      "createRfqDesc": "Start a new quote request",
+      "viewOffers": "View Offers",
+      "viewOffersDesc": "Check your active offers"
+    },
+    "subtitle": "Manage your wholesale orders and track your requests"
+  },
+  "products": {
+    "title": "Products",
+    "categories": "Categories",
+    "all": "All Products",
+    "search": "Search products...",
+    "filterByCategory": "Filter by category",
+    "noProducts": "No products found",
+    "specifications": "Specifications",
+    "addToRfq": "Add to RFQ",
+    "viewDetails": "View Details",
+    "loginToRequest": "Login to Request Quote"
+  },
+  "rfq": {
+    "title": "Request for Quote",
+    "cart": "RFQ Cart",
+    "myRequests": "My Requests",
+    "create": "Create RFQ",
+    "submit": "Submit RFQ",
+    "items": "Items",
+    "notes": "Notes",
+    "cartTitle": "Cart Items ({count} items)",
+    "cartDescription": "Review and adjust quantities for your quote request",
+    "emptyCartTitle": "Your cart is empty",
+    "emptyCartDescription": "Browse our products and add items to create a quote request.",
+    "browseProducts": "Browse Products",
+    "addNotes": "Add any additional information for your quote request",
+    "loading": "Loading RFQs...",
+    "tryAgain": "Try Again",
+    "noRfqsYet": "No RFQs yet",
+    "createFirstRfq": "Create your first quote request to get started.",
+    "yourQuoteRequests": "Your Quote Requests",
+    "status": {
+      "pending": "Pending",
+      "offered": "Offered",
+      "accepted": "Accepted",
+      "declined": "Declined",
+      "cancelled": "Cancelled"
+    },
+    "actions": {
+      "accept": "Accept Offer",
+      "decline": "Decline Offer",
+      "downloadPdf": "Download PDF",
+      "sendEmail": "Send by Email"
+    },
+    "messages": {
+      "emptyCart": "Your RFQ cart is empty",
+      "emptyCartDescription": "Please add items to your cart before submitting.",
+      "rfqSubmitted": "RFQ submitted successfully",
+      "rfqSubmittedDescription": "Your quote request has been submitted successfully.",
+      "rfqSubmitFailed": "Failed to submit RFQ. Please try again.",
+      "offerAccepted": "Offer accepted successfully",
+      "offerAcceptedFailed": "Failed to accept offer. Please try again.",
+      "offerDeclined": "Offer declined",
+      "offerDeclinedFailed": "Failed to decline offer. Please try again.",
+      "beingReviewed": "Your quote request is being reviewed. You will be notified when an offer is ready."
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": "Dashboard",
+    "dashboardSubtitle": "Manage users, products, and quote requests",
+    "users": "Users",
+    "categories": "Categories",
+    "products": "Products",
+    "rfqs": "RFQs",
+    "settings": "Settings",
+    "approve": "Approve",
+    "reject": "Reject",
+    "disable": "Disable",
+    "enable": "Enable",
+    "createOffer": "Create Offer",
+    "sendOffer": "Send Offer",
+    "exportPdf": "Export PDF",
+    "stats": {
+      "totalUsers": "Total Users",
+      "pendingUsers": "Pending Approval",
+      "totalRfqs": "Total RFQs",
+      "pendingRfqs": "Pending RFQs",
+      "descriptions": {
+        "totalUsers": "Registered users",
+        "pendingUsers": "Awaiting approval",
+        "totalRfqs": "Quote requests",
+        "pendingRfqs": "Awaiting response"
+      }
+    },
+    "recentRfqs": {
+      "title": "Recent RFQs",
+      "description": "Latest quote requests",
+      "customer": "Customer",
+      "status": "Status",
+      "items": "items",
+      "item": "item",
+      "created": "Created",
+      "actions": "Actions",
+      "view": "View",
+      "viewAll": "View All RFQs"
+    },
+    "rfqDetails": {
+      "backToRfqs": "Back to RFQs",
+      "created": "Created",
+      "createOffer": "Create Offer",
+      "customerInfo": "Customer Information",
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "orderItems": "Order Items",
+      "product": "Product",
+      "quantity": "Quantity",
+      "notes": "Notes",
+      "orderNotes": "Order Notes",
+      "noNotes": "No notes"
+    },
+    "userManagement": {
+      "searchUsers": "Search users...",
+      "allRoles": "All Roles",
+      "admin": "Admin",
+      "customer": "Customer",
+      "pending": "Pending",
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "role": "Role",
+      "rfqs": "RFQs",
+      "actions": "Actions"
+    },
+    "productManagement": {
+      "title": "Manage your product catalog",
+      "products": "Products",
+      "categories": "Categories",
+      "addProduct": "Add Product",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "common": {
+    "success": "Success",
+    "error": "Error",
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "tryAgain": "Please try again",
+    "failedToLoad": "Failed to load data",
+    "userUpdated": "User updated successfully",
+    "userUpdateFailed": "Failed to update user",
+    "rfqLoadFailed": "Failed to load RFQs"
+  },
+  "forms": {
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address",
+      "minLength": "Must be at least {min} characters",
+      "maxLength": "Must be no more than {max} characters",
+      "password": "Password must be at least 8 characters long"
+    }
+  },
+  "footer": {
+    "company": "Dimax Distribution",
+    "description": "Your trusted partner in fresh produce distribution for HoReCa",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "rights": "All rights reserved."
+  },
+  "cta": {
+    "title": "Let's Get Started!",
+    "subtitle": "Register on our B2B platform and enjoy quick access to fresh vegetables, fruits and food products for your business.",
+    "button": "Create Your Account"
+  }
+}
+
+
+
+
+

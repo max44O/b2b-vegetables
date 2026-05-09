@@ -1,0 +1,536 @@
+{
+  "common": {
+    "loading": "Se încarcă...",
+    "error": "Eroare",
+    "success": "Succes",
+    "save": "Salvează",
+    "cancel": "Anulează",
+    "delete": "Șterge",
+    "edit": "Editează",
+    "add": "Adaugă",
+    "search": "Caută",
+    "filter": "Filtrează",
+    "clear": "Șterge",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "previous": "Anteriorul",
+    "close": "Închide",
+    "yes": "Da",
+    "no": "Nu",
+    "confirm": "Confirmă",
+    "weight": "Greutate",
+    "quantity": "Cantitate",
+    "price": "Preț",
+    "total": "Total",
+    "status": "Status",
+    "date": "Data",
+    "actions": "Acțiuni",
+    "noResults": "Nu au fost găsite rezultate",
+    "tryAgain": "Te rugăm să încerci din nou",
+    "failedToLoad": "Nu s-au putut încărca datele",
+    "userUpdated": "Utilizatorul a fost actualizat cu succes",
+    "userUpdateFailed": "Nu s-a putut actualiza utilizatorul",
+    "rfqLoadFailed": "Nu s-au putut încărca cererile de ofertă",
+    "product": "Produs",
+    "sku": "SKU",
+    "category": "Categorie"
+  },
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre",
+    "products": "Produse",
+    "contact": "Contact",
+    "terms": "Termeni",
+    "privacy": "Confidențialitate",
+    "dashboard": "Panou",
+    "login": "Conectare",
+    "register": "Înregistrare",
+    "logout": "Deconectare",
+    "language": "Limbă",
+    "myAccount": "Contul Meu"
+  },
+  "hero": {
+    "title": "Proaspăt. Premium. Complet.",
+    "subtitle": "Facem livrările rapide și simple, ca tu să te concentrezi pe afacerea ta HoReCa.",
+    "cta": "Cere Ofertă",
+    "learnMore": "Află Mai Mult"
+  },
+  "features": {
+    "quality": {
+      "title": "Calitate Premium",
+      "description": "Selectăm cu grijă cele mai bune legume, fructe și produse alimentare, provenite de la ferme locale de încredere, pentru a-ți oferi prospețime și excelență la fiecare livrare."
+    },
+    "freshness": {
+      "title": "Întotdeauna Proaspete",
+      "description": "Produsele noastre ajung la tine direct din ferme, păstrând prospețimea naturală și gustul autentic de care afacerea ta are nevoie în fiecare zi."
+    },
+    "reliability": {
+      "title": "Furnizare Fiabilă",
+      "description": "Respectăm programe de livrare clare și constante, astfel încât afacerea ta să funcționeze fără întreruperi și să primești mereu produsele la timp."
+    },
+    "support": {
+      "title": "Suport Expert",
+      "description": "Echipa noastră îți oferă consultanță dedicată și recomandări personalizate, ajutându-te să alegi soluțiile potrivite pentru meniul și necesitățile afacerii tale HoReCa."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Conectare",
+      "subtitle": "Accesează contul tău B2B",
+      "email": "Email",
+      "password": "Parolă",
+      "submit": "Conectare",
+      "forgotPassword": "Ai uitat parola?",
+      "noAccount": "Nu ai cont?",
+      "register": "Înregistrează-te aici"
+    },
+    "register": {
+      "title": "Creează Cont",
+      "subtitle": "Alătură-te platformei noastre B2B",
+      "name": "Nume Complet",
+      "email": "Email",
+      "password": "Parolă",
+      "confirmPassword": "Confirmă Parola",
+      "companyName": "Numele Companiei",
+      "vatNumber": "CUI (opțional)",
+      "phone": "Număr de Telefon",
+      "submit": "Creează Cont",
+      "hasAccount": "Ai deja cont?",
+      "login": "Conectează-te aici",
+      "terms": "Prin crearea unui cont, ești de acord cu termenii de serviciu"
+    },
+    "pending": {
+      "title": "Cont În Așteptarea Aprobării",
+      "message": "Contul tău așteaptă aprobarea administratorilor noștri. Vei primi o notificare prin email odată ce contul tău a fost revizuit.",
+      "contact": "Dacă ai întrebări, te rugăm să ne contactezi."
+    },
+    "errors": {
+      "invalidCredentials": "Email sau parolă invalidă",
+      "userNotFound": "Utilizatorul nu a fost găsit",
+      "userDisabled": "Contul tău a fost dezactivat. Te rugăm să contactezi suportul.",
+      "emailExists": "Există deja un cont cu acest email",
+      "weakPassword": "Parola trebuie să aibă cel puțin 8 caractere",
+      "passwordsDoNotMatch": "Parolele nu se potrivesc",
+      "generic": "A apărut o eroare. Te rugăm să încerci din nou."
+    }
+  },
+  "dashboard": {
+    "title": "Panou de Control",
+    "welcome": "Bine ai venit înapoi, {name}!",
+    "pendingApproval": {
+      "title": "Cont În Așteptarea Aprobării",
+      "message": "Contul tău așteaptă aprobarea. Nu poți accesa prețurile sau plasa comenzi până nu ești aprobat."
+    },
+    "stats": {
+      "totalRfqs": "Total Cereri",
+      "pendingRfqs": "Cereri în Așteptare",
+      "activeOffers": "Oferte Active",
+      "completedOrders": "Comenzi Finalizate",
+      "descriptions": {
+        "totalRfqs": "Total cereri făcute",
+        "pendingRfqs": "În așteptarea răspunsului",
+        "activeOffers": "Oferte de revizuit",
+        "completedOrders": "Finalizate cu succes"
+      }
+    },
+    "recentRfqs": "Cereri Recente",
+    "recentRfqsDescription": "Cererile tale recente de ofertă",
+    "noRfqsYet": "Nu ai cereri încă",
+    "createFirstRfq": "Creează Prima Ta Cerere",
+    "items": "articole",
+    "item": "articol",
+    "latestOffer": "Ultima ofertă",
+    "view": "Vezi",
+    "viewAllRfqs": "Vezi Toate Cererile",
+    "quickActions": {
+      "title": "Acțiuni Rapide",
+      "description": "Sarcini comune și scurtături pentru nevoile tale de distribuție",
+      "browseProducts": "Răsfoiește Produsele",
+      "browseProductsDesc": "Explorează catalogul nostru de produse",
+      "createRfq": "Creează Cerere",
+      "createRfqDesc": "Începe o nouă cerere de ofertă",
+      "viewOffers": "Vezi Ofertele",
+      "viewOffersDesc": "Verifică ofertele tale active"
+    },
+    "subtitle": "Gestionează comenzile tale de distribuție și urmărește cererile tale"
+  },
+  "products": {
+    "title": "Produse",
+    "categories": "Categorii",
+    "all": "Toate Produsele",
+    "search": "Caută produse...",
+    "filterByCategory": "Filtrează după categorie",
+    "noProducts": "Nu au fost găsite produse",
+    "specifications": "Specificații",
+    "addToRfq": "Adaugă la Cerere",
+    "viewDetails": "Vezi Detalii",
+    "signUpToSeePrices": "Înregistrează-te pentru a vedea prețurile",
+    "loginToRequest": "Conectează-te pentru a cere ofertă",
+    "pricePerUnit": "Preț per {unit}",
+    "priceWithVAT": "Preț +TVA"
+  },
+  "rfq": {
+    "title": "Cerere de Ofertă",
+    "cart": "Coș Cereri",
+    "myRequests": "Cererile Mele",
+    "create": "Creează Cerere",
+    "submit": "Trimite Cererea",
+    "items": "Articole",
+    "notes": "Note",
+    "cartTitle": "Articole Coș ({count} articole)",
+    "cartDescription": "Revizuiește și ajustează cantitățile pentru cererea ta de ofertă",
+    "emptyCartTitle": "Coșul tău este gol",
+    "emptyCartDescription": "Răsfoiește produsele noastre și adaugă articole pentru a crea o cerere de ofertă.",
+    "browseProducts": "Răsfoiește Produsele",
+    "addNotes": "Adaugă informații suplimentare pentru cererea ta de ofertă",
+    "loading": "Se încarcă cererile...",
+    "tryAgain": "Încearcă Din Nou",
+    "noRfqsYet": "Nu ai cereri încă",
+    "createFirstRfq": "Creează prima ta cerere de ofertă pentru a începe.",
+    "yourQuoteRequests": "Cererile Tale de Ofertă",
+    "status": {
+      "pending": "În Așteptare",
+      "offered": "Oferită",
+      "accepted": "Acceptată",
+      "declined": "Respinsă",
+      "cancelled": "Anulată"
+    },
+    "actions": {
+      "accept": "Acceptă Oferta",
+      "decline": "Respinge Oferta",
+      "downloadPdf": "Descarcă PDF",
+      "sendEmail": "Trimite prin Email"
+    },
+    "messages": {
+      "emptyCart": "Coșul tău de cereri este gol",
+      "emptyCartDescription": "Te rugăm să adaugi articole în coș înainte de a trimite.",
+      "rfqSubmitted": "Cererea a fost trimisă cu succes",
+      "rfqSubmittedDescription": "Cererea ta de ofertă a fost trimisă cu succes.",
+      "rfqSubmitFailed": "Nu s-a putut trimite cererea. Te rugăm să încerci din nou.",
+      "offerAccepted": "Oferta a fost acceptată cu succes",
+      "offerAcceptedFailed": "Nu s-a putut accepta oferta. Te rugăm să încerci din nou.",
+      "offerDeclined": "Oferta a fost respinsă",
+      "offerDeclinedFailed": "Nu s-a putut respinge oferta. Te rugăm să încerci din nou.",
+      "beingReviewed": "Cererea ta de ofertă este în curs de revizuire. Vei fi notificat când o ofertă este gata."
+    }
+  },
+  "admin": {
+    "title": "Panou Admin",
+    "dashboard": "Panou de Control",
+    "dashboardSubtitle": "Gestionează utilizatori, produse și cereri de ofertă",
+    "users": "Utilizatori",
+    "categories": "Categorii",
+    "products": "Produse",
+    "rfqs": "Cereri",
+    "settings": "Setări",
+    "approve": "Aprobă",
+    "reject": "Respinge",
+    "disable": "Dezactivează",
+    "enable": "Activează",
+    "createOffer": "Creează Ofertă",
+    "sendOffer": "Trimite Ofertă",
+    "exportPdf": "Exportă PDF",
+    "stats": {
+      "totalUsers": "Total Utilizatori",
+      "pendingUsers": "În Așteptarea Aprobării",
+      "totalRfqs": "Total Cereri",
+      "pendingRfqs": "Cereri în Așteptare",
+      "descriptions": {
+        "totalUsers": "Utilizatori înregistrați",
+        "pendingUsers": "În așteptarea aprobării",
+        "totalRfqs": "Cereri de ofertă",
+        "pendingRfqs": "În așteptarea răspunsului"
+      }
+    },
+    "recentRfqs": {
+      "title": "Cereri Recente",
+      "description": "Ultimele cereri de ofertă",
+      "customer": "Client",
+      "status": "Status",
+      "items": "articole",
+      "item": "articol",
+      "created": "Creat",
+      "actions": "Acțiuni",
+      "view": "Vezi",
+      "viewAll": "Vezi Toate Cererile"
+    },
+    "rfqDetails": {
+      "backToRfqs": "Înapoi la Cereri",
+      "created": "Creat",
+      "createOffer": "Creează Ofertă",
+      "customerInfo": "Informații Client",
+      "name": "Nume",
+      "company": "Companie",
+      "email": "Email",
+      "phone": "Telefon",
+      "orderItems": "Articole Comandă",
+      "product": "Produs",
+      "quantity": "Cantitate",
+      "notes": "Note",
+      "orderNotes": "Note Comandă",
+      "noNotes": "Fără note"
+    },
+    "userManagement": {
+      "searchUsers": "Caută utilizatori...",
+      "allRoles": "Toate Rolurile",
+      "admin": "Admin",
+      "customer": "Client",
+      "pending": "În Așteptare",
+      "name": "Nume",
+      "email": "Email",
+      "company": "Companie",
+      "role": "Rol",
+      "rfqs": "Cereri",
+      "actions": "Acțiuni"
+    },
+    "productManagement": {
+      "title": "Gestionează catalogul de produse",
+      "products": "Produse",
+      "categories": "Categorii",
+      "addProduct": "Adaugă Produs",
+      "edit": "Editează",
+      "delete": "Șterge"
+    }
+  },
+  "common": {
+    "success": "Succes",
+    "error": "Eroare",
+    "loading": "Se încarcă...",
+    "noResults": "Nu au fost găsite rezultate",
+    "tryAgain": "Te rugăm să încerci din nou",
+    "failedToLoad": "Nu s-au putut încărca datele",
+    "userUpdated": "Utilizatorul a fost actualizat cu succes",
+    "userUpdateFailed": "Nu s-a putut actualiza utilizatorul",
+    "rfqLoadFailed": "Nu s-au putut încărca cererile de ofertă"
+  },
+  "forms": {
+    "validation": {
+      "required": "Acest câmp este obligatoriu",
+      "email": "Te rugăm să introduci o adresă de email validă",
+      "minLength": "Trebuie să aibă cel puțin {min} caractere",
+      "maxLength": "Trebuie să aibă cel mult {max} caractere",
+      "password": "Parola trebuie să aibă cel puțin 8 caractere"
+    }
+  },
+  "footer": {
+    "company": "Dimax Distribution",
+    "description": "Partenerul tău de încredere în distribuția de produse proaspete pentru HoReCa",
+    "quickLinks": "Linkuri Rapide",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Telefon",
+    "address": "Adresă",
+    "rights": "Toate drepturile rezervate."
+  },
+  "cta": {
+    "title": "Hai să începem!",
+    "subtitle": "Înregistrează-te pe platforma noastră B2B și bucură-te de acces rapid la legume, fructe și produse alimentare proaspete pentru afacerea ta.",
+    "button": "Creează Contul Tău"
+  },
+  "about": {
+    "title": "DESPRE NOI – Dimax Distribution",
+    "hero": {
+      "title": "Despre Dimax Distribution",
+      "subtitle": "Partenerul tău de încredere pentru legume și leguminoase premium, servind restaurante și afaceri din toată România."
+    },
+    "description": "Dimax Distribution este partenerul de încredere al industriei HoReCa din România, oferind zilnic legume și fructe proaspete, produse alimentare uscate, condimente și băuturi. Lucrăm cu grijă pentru a asigura calitatea fiecărui produs și pentru a sprijini afacerile care se bazează pe prospețime și promptitudine.",
+    "delivery": "Ne mândrim cu un portofoliu larg de produse și cu livrarea rapidă, <strong>în dimineața zilei următoare datei în care este plasată comanda</strong>. Ne adaptăm constant nevoilor clienților și menținem prețuri avantajoase pentru sectorul HoReCa, astfel încât partenerii noștri să își poată desfășura activitatea în cele mai bune condiții.",
+    "values": "La Dimax Distribution, credem în transparență, seriozitate și colaborare pe termen lung. Tratem fiecare parteneriat cu responsabilitate, ca și cum ar fi parte din propria noastră afacere, și depunem toate eforturile pentru a oferi soluții eficiente și corecte de fiecare dată.",
+    "mission": {
+      "title": "Misiunea noastră",
+      "description": "Să oferim produse proaspete și de calitate la prețuri corecte, respectând promisiunea livrării rapide și sprijinind fiecare business HoReCa cu profesionalism și dedicare."
+    },
+    "vision": {
+      "title": "Viziunea noastră",
+      "description": "Să devenim unul dintre principalii distribuitori HoReCa din România, recunoscuți pentru seriozitate, calitate și relații de parteneriat durabile."
+    }
+  },
+  "terms": {
+    "title": "Termeni și Condiții",
+    "intro": {
+      "title": "1. Introducere",
+      "content": "Prezentul document stabilește termenii și condițiile de utilizare a platformei B2B operate de Dimax Distribution (Dimax Distribution S.R.L.). Utilizarea platformei implică acceptarea integrală a acestor termeni, conform prevederilor Codului Civil și legislației comerciale aplicabile."
+    },
+    "scope": {
+      "title": "2. Domeniul de aplicare",
+      "content": "Platforma este destinată exclusiv clienților persoane juridice sau PFA-urilor din sectorul HoReCa. Orice utilizare în afara scopului comercial este interzisă."
+    },
+    "account": {
+      "title": "3. Contul Utilizatorului",
+      "content": "Clientul este responsabil pentru:",
+      "responsibilities": [
+        "furnizarea unor date reale și complete la înregistrare;",
+        "protejarea datelor de autentificare;",
+        "orice activitate desfășurată prin contul său."
+      ],
+      "note": "Compania își rezervă dreptul de a suspenda sau închide conturile suspecte de abuz sau fraudă."
+    },
+    "contract": {
+      "title": "4. Încheierea Contractului",
+      "content": "Prin plasarea unei comenzi pe platformă, se consideră că a fost încheiat un contract comercial la distanță între client și Companie, în conformitate cu Codul Civil și Legea 365/2002 privind comerțul electronic. Confirmarea comenzii constituie acceptarea expresă a contractului."
+    },
+    "products": {
+      "title": "5. Produse și Disponibilitate",
+      "content": "Produsele oferite sunt destinate exclusiv utilizării profesionale. Disponibilitatea poate varia în funcție de sezon și de stoc. Compania poate modifica lista de produse fără notificare prealabilă."
+    },
+    "delivery": {
+      "title": "6. Livrare",
+      "content": "Livrarea se efectuează <strong>în dimineața zilei următoare datei plasării comenzii</strong>, cu excepția situațiilor cauzate de:",
+      "exceptions": [
+        "condiții meteo nefavorabile,",
+        "trafic intens,",
+        "situații de forță majoră conform Codului Civil."
+      ],
+      "note": "Forța majoră suspendă obligațiile părților pe durata existenței acesteia."
+    },
+    "pricing": {
+      "title": "7. Prețuri și Plăți",
+      "content": "Prețurile sunt dedicate sectorului HoReCa și pot fi actualizate periodic.",
+      "payment": "Plata se efectuează conform termenilor agreați prin contract sau prin factura emisă. Întârzierea plății poate atrage dobânzi penalizatoare conform legislației comerciale în vigoare."
+    },
+    "quality": {
+      "title": "8. Calitate și Conformitate",
+      "content": "Compania garantează că produsele sunt conforme standardelor de calitate aplicabile sectorului alimentar.",
+      "reporting": "Orice neconformitate trebuie raportată <strong>în ziua livrării</strong>, conform practicilor comerciale privind produsele perisabile."
+    },
+    "returns": {
+      "title": "9. Returnări",
+      "content": "Din cauza naturii perisabile a produselor, returnările sunt acceptate <strong>doar</strong> în cazul:",
+      "cases": [
+        "neconformităților vizibile,",
+        "produselor deteriorate la livrare,",
+        "diferențelor de cantitate."
+      ],
+      "note": "Clientul are obligația de a furniza dovezi (foto/video) în aceeași zi."
+    },
+    "liability": {
+      "title": "10. Răspundere",
+      "content": "Dimax Distribution nu este responsabilă pentru:",
+      "exclusions": [
+        "pierderi indirecte,",
+        "prejudicii comerciale sau pierderi de profit,",
+        "întârzieri cauzate de factori externi."
+      ],
+      "note": "Răspunderea Companiei este limitată la valoarea comenzii afectate."
+    },
+    "gdpr": {
+      "title": "11. Protecția Datelor – GDPR",
+      "content": "Datele personale sunt procesate în conformitate cu Regulamentul UE 679/2016 (GDPR) și sunt utilizate doar pentru:",
+      "purposes": [
+        "gestionarea comenzilor,",
+        "comunicarea comercială,",
+        "facturare și livrare."
+      ],
+      "note": "Clientul poate solicita acces, rectificare sau ștergere conform drepturilor GDPR."
+    },
+    "modifications": {
+      "title": "12. Modificarea Termenilor",
+      "content": "Compania își rezervă dreptul de a modifica termenii și condițiile. Versiunea actualizată devine activă la publicarea pe site."
+    },
+    "law": {
+      "title": "13. Legea Aplicabilă și Jurisdicția",
+      "content": "Prezentul contract este guvernat de legea română.",
+      "disputes": "Orice dispută va fi soluționată pe cale amiabilă, iar în caz de eșec, de instanțele competente din România."
+    },
+    "contact": {
+      "title": "14. Contact",
+      "email": "Email:",
+      "phone": "Telefon:"
+    }
+  },
+  "privacy": {
+    "title": "Politica de Confidențialitate – Dimax Distribution",
+    "subtitle": "(Conform Regulamentului UE 679/2016 – GDPR)",
+    "intro": {
+      "title": "1. Introducere",
+      "content": "Prezenta Politică de Confidențialitate explică modul în care Dimax Distribution (Dimax Distribution S.R.L.) colectează, utilizează, stochează și protejează datele personale ale utilizatorilor platformei noastre B2B. Utilizarea platformei implică acceptarea acestei politici."
+    },
+    "operator": {
+      "title": "2. Operator de date",
+      "content": "Dimax Distribution acționează în calitate de operator de date cu caracter personal, conform GDPR.",
+      "contact": "Pentru orice solicitare legată de date personale, ne puteți contacta la:",
+      "email": "Email:",
+      "phone": "Telefon:"
+    },
+    "data": {
+      "title": "3. Datele colectate",
+      "content": "Compania poate colecta următoarele categorii de date:",
+      "categories": [
+        "Date de identificare: nume, prenume, funcție",
+        "Date de contact: email, număr de telefon",
+        "Date ale companiei: denumire firmă, CUI, adresă",
+        "Date de acces la platformă: utilizator, parolă",
+        "Date operaționale: istoricul comenzilor, facturare, adrese de livrare",
+        "Date tehnice: adresa IP, cookies, date de logare"
+      ]
+    },
+    "purpose": {
+      "title": "4. Scopul prelucrării datelor",
+      "content": "Datele personale sunt utilizate doar pentru:",
+      "purposes": [
+        "crearea și administrarea contului B2B",
+        "prelucrarea comenzilor și livrarea produselor",
+        "comunicare comercială (confirmări, actualizări, facturi)",
+        "îndeplinirea obligațiilor legale (contabilitate, arhivare)",
+        "îmbunătățirea serviciilor și securitatea platformei"
+      ],
+      "note": "Datele nu sunt utilizate în alte scopuri fără consimțământul prealabil."
+    },
+    "legal": {
+      "title": "5. Temeiul legal",
+      "content": "Prelucrarea se realizează conform următoarelor temeiuri:",
+      "bases": [
+        "executarea contractului (art. 6 lit. b GDPR)",
+        "obligație legală (art. 6 lit. c) – facturare, contabilitate",
+        "interes legitim (art. 6 lit. f) – securitatea platformei și prevenirea abuzurilor",
+        "consimțământ, unde este necesar (ex. cookies opționale)"
+      ]
+    },
+    "storage": {
+      "title": "6. Stocarea datelor",
+      "content": "Datele sunt stocate în condiții de siguranță pe servere securizate și păstrate doar pe perioada necesară scopurilor indicate sau conform obligațiilor legale."
+    },
+    "sharing": {
+      "title": "7. Partajarea datelor",
+      "content": "Datele pot fi partajate doar cu:",
+      "parties": [
+        "firme de curierat / logistică",
+        "furnizori de servicii IT",
+        "autorități publice (doar când este obligatoriu prin lege)"
+      ],
+      "note": "Nu vindem, nu închiriem și nu cedăm date personale către terți în scopuri comerciale."
+    },
+    "rights": {
+      "title": "8. Drepturile utilizatorului (conform GDPR)",
+      "content": "Clientul are următoarele drepturi:",
+      "list": [
+        "dreptul de acces la date",
+        "dreptul la rectificare",
+        "dreptul la ștergere (\"dreptul de a fi uitat\")",
+        "dreptul la restricționarea prelucrării",
+        "dreptul la portabilitatea datelor",
+        "dreptul de opoziție",
+        "dreptul de a depune o plângere la ANSPDCP (autoritatea GDPR din România)"
+      ],
+      "note": "Solicitările se pot transmite prin email."
+    },
+    "security": {
+      "title": "9. Securitatea datelor",
+      "content": "Compania utilizează măsuri tehnice și organizaționale avansate pentru protecția datelor împotriva pierderii, furtului, accesului neautorizat sau modificării."
+    },
+    "cookies": {
+      "title": "10. Cookies",
+      "content": "Platforma poate utiliza cookie-uri pentru funcționalitate, analiză și securitate.",
+      "note": "Utilizatorul poate gestiona preferințele direct din browser."
+    },
+    "modifications": {
+      "title": "11. Modificarea Politicii",
+      "content": "Compania își rezervă dreptul de a modifica această politică. Versiunea actualizată va fi publicată pe site."
+    }
+  }
+}
+
+
+
+
+
