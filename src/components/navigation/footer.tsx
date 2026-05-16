@@ -88,11 +88,14 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
             <p className="text-sm text-muted-foreground">
-              © 2024 {t('company')}. {t('rights')}
+              © {new Date().getFullYear()} {t('company')}. {t('rights')}
+              <span className="hidden md:inline mx-2">|</span>
+              <br className="md:hidden" />
+              Built by <a href="https://www.kambyte.com" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-primary transition-colors">Kambyte srl</a>
             </p>
-            <div className="flex items-center space-x-4 mt-4 md:mt-0">
+            <div className="flex items-center justify-center space-x-4">
               <Link href={`/${locale}/privacy`} className="text-sm text-muted-foreground hover:text-primary">
                 Privacy Policy
               </Link>
